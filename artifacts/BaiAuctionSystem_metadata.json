@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EasyAuctionSystem.sol": "BaiAuctionSystem"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EasyAuctionSystem.sol": {
+			"keccak256": "0xb98747a1b698b6536c6b9282ac7e0e4391ddf1bcae40c1285c5571ed789fa559",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://84e12cd159a1e0dc3c5d356b823a6c6489b45d77d56fda03838570df5b633d03",
+				"dweb:/ipfs/QmTN4b7GesCrChV4hgKw9vfnbsX9f1giCRG4nEoQ99mvq7"
+			]
+		}
+	},
+	"version": 1
+}

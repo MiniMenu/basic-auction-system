@@ -1,0 +1,156 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "BasicAuctionSystem__BidAmountLowerThanCurrentBid",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "BasicAuctionSystem__InvalidItemId",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_desc",
+						"type": "string"
+					}
+				],
+				"name": "addItemsForBidding",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_itemId",
+						"type": "uint256"
+					}
+				],
+				"name": "currentHighestBidder",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getItemDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "description",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "currentHighestBid",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "higgestBidder",
+								"type": "address"
+							}
+						],
+						"internalType": "struct BasicAuctionSystem.Item[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_itemId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_bidAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "placeBids",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EasyAuctionSystem.sol": "BasicAuctionSystem"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EasyAuctionSystem.sol": {
+			"keccak256": "0x2c007519d69af770779dc627d4f11d2f80444cb7c38931356d9a33b21a3e0a89",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://124dee469c28b77147f7a2c582ae795d819f85cb452dc5195f9125020388b3e8",
+				"dweb:/ipfs/QmUUBLMcaaato4rMJcs415UDVRkf9nzPQY8EKKvdcnRYgA"
+			]
+		}
+	},
+	"version": 1
+}
